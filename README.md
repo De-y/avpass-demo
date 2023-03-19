@@ -1,2 +1,2 @@
-# Kosciuszko
-Much more powerful than Kosciuszko-Legacy. Now utilizing routes & made with prisma in mind!
+# avPass Demo
+Demo for utilizing avPass(an OIDC application) to sign a user in with the flask library.
