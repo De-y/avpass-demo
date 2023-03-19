@@ -1,7 +1,5 @@
-from flask import Blueprint, request, render_template, redirect
-from prisma.models import User
-from flask_login import login_user, logout_user, current_user
-from libraries.db.models import UserModel, get_user
+from flask import Blueprint, request, render_template
+from flask_login import current_user
 
 admin_blueprint = Blueprint('admin', __name__ , template_folder='../pages/',static_folder='../assets/')
 
